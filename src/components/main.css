@@ -1,0 +1,51 @@
+.outergrid{
+    background: url(./assets/bg.jpg) center no-repeat hsl(200, 53%, 31%);
+    height: 100vh;
+    overflow-y: scroll;
+    color: white;
+}
+
+.heads{
+    background-color: hsl(231, 53%, 31%);
+    color: aliceblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    height: 6rem;
+    min-height: 100px;
+    padding: 1px;    
+    font-size: 1.5rem;
+}
+
+.subheads{
+    background-color: hsl(283, 53%, 31%);
+    color: aliceblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    height: 5rem;
+    min-height: 60px;
+    padding: 1px;    
+    font-size: 1rem;
+}
+.contactheads{
+    background-color: hsl(231, 53%, 31%);
+    color: aliceblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    height:auto;
+    min-height: 200px;
+    padding: 1px;    
+    font-size: 1rem;
+}
+.discDiv h3{
+    color: hsl(195, 81%, 54%);
+    font-size: 1.3rem;
+}
+.discDiv p{
+    /* color: hsl(195, 81%, 54%); */
+    font-size: 1.2rem;
+}
+
+.contactDiv{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
