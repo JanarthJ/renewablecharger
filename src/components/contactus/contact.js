@@ -14,6 +14,7 @@ export default  class Contact extends Component {
             <div class="discDiv">
                 <h3>Seller Details</h3>
                 <p><span>Seller name : </span><span>Sudhersun</span></p>
+                <p><span>Founder , snake repallent startup</span></p>
                 <p><span>Phone : </span><span>9994599585</span></p>     
                 <p><span>Email : </span><span>sudhersenkavi@gmail.com</span></p>           
             </div>  
@@ -25,9 +26,7 @@ export default  class Contact extends Component {
                 <p>Amount to be paid while checkout. </p>
                 <p>COD currently unavailable.</p>
                 <p>7 days return policy available.</p>
-            </div>
-
-                      
+            </div>                     
 
              </div>  
              </div>         
