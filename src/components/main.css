@@ -1,5 +1,5 @@
 .outergrid{
-    background: url(./assets/bg.jpg) center no-repeat hsl(200, 53%, 31%);
+    background: url(./assets/bg.jpg) cover no-repeat hsl(200, 53%, 31%);
     height: 100vh;
     overflow-y: scroll;
     color: white;

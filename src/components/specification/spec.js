@@ -12,7 +12,7 @@ export default  class Spec extends Component {
             <div class="discDiv">
             <div class="disDiv">
                 <h3>Description</h3>
-                <p>A solar based power bank to charge various electronic devices such as mobile phone, smart watches, trimmers, earpods, LED lights etc.</p>
+                <p></p>
             </div>
 
             <div class="discDiv">
