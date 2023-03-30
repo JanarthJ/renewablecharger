@@ -11,6 +11,7 @@ import {
   Navigate
 } from "react-router-dom";
 import Header from './components/header/header';
+import Partners from './components/Partners/partner';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
             <Route path="/home" element={<Home />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/about" element={<About />} />
+            <Route path="/partners" element={<Partners />} />
             <Route path="/" element={<Navigate replace to="/home" />} />
             {/* <Route path="/dashboard" element={<Dashboard />} /> */}
         </Routes>
