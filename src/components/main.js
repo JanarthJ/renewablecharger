@@ -1,7 +1,7 @@
 import React,{Component} from 'react';
 import Carosel from './carosel/carosel';
 import Header from './header/header';
-import Videos from './videos/videos';
+// import Videos from './videos/videos';
 import Spec from './specification/spec';
 import Contact from './contactus/contact';
 
@@ -13,9 +13,9 @@ export default  class Main extends Component {
       <div className={'outergrid'}>
          <Header/>
          <Carosel/>
-         <Spec/>
-         <Videos/>
-         <Contact/>
+         {/* <Spec/> */}
+         {/* <Videos/> */}
+         {/* <Contact/> */}
       </div>
     ) 
   }  

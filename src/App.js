@@ -1,6 +1,9 @@
 
 import './App.css';
 import Home from "./components/home/home";
+import Contact from "./components/contactus/contact";
+import About from './components/about/about';
+
 import {
   BrowserRouter as Router,
   Routes,
@@ -18,6 +21,8 @@ function App() {
         <div className="container">
         <Routes>
             <Route path="/home" element={<Home />} />
+            <Route path="/contact" element={<Contact />} />
+            <Route path="/about" element={<About />} />
             <Route path="/" element={<Navigate replace to="/home" />} />
             {/* <Route path="/dashboard" element={<Dashboard />} /> */}
         </Routes>

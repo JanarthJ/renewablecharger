@@ -15,17 +15,17 @@ export default  class Carosel extends Component {
 
     <CarouselProvider
         naturalSlideWidth={100}
-        naturalSlideHeight={45}
+        naturalSlideHeight={50}
         totalSlides={5}
         isPlaying={true}
         interval={3000}
         infinite={true}
       >
         <Slider>
-          <Slide index={2}><img height={"100%"} width={"50%"} src={require("../assets/bag/1.jpeg")} alt="1"/></Slide>
-          <Slide index={0}><img height={"100%"} width={"50%"} src={require("../assets/bag/2.jpeg")} alt="2"/></Slide>
-          <Slide index={1}><img height={"100%"} width={"50%"} src={require("../assets/bag/3.jpeg")} alt="3"/></Slide>
-          <Slide index={4}><img height={"100%"} width={"50%"} src={require("../assets/bag/4.jpeg")} alt="4"/></Slide>
+          <Slide index={2}><img height={"100%"} src={require("../assets/1.jpeg")} alt="1"/></Slide>
+          <Slide index={0}><img height={"100%"} src={require("../assets/2.jpeg")} alt="2"/></Slide>
+          <Slide index={1}><img height={"100%"} src={require("../assets/3.jpeg")} alt="3"/></Slide>
+          <Slide index={4}><img height={"100%"} src={require("../assets/4.jpeg")} alt="4"/></Slide>
           {/* <Slide index={5}><img height={"100%"} width={"50%"} src={require("../assets/bag/5.jpeg")} alt="5"/></Slide> */}
         </Slider>
       </CarouselProvider>
